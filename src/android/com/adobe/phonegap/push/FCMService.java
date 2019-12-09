@@ -68,6 +68,12 @@ public class FCMService extends FirebaseMessagingService implements PushConstant
     }
   }
 
+  @override
+public void onNewToken(String s) {
+super.onNewToken(s);
+Log.d("NEW_TOKEN",s);
+}
+  
   @Override
   public void onMessageReceived(RemoteMessage message) {
 
