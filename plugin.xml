@@ -45,7 +45,7 @@
 
     <framework src="androidx.legacy:legacy-support-v13:1.0.0"/>
     <framework src="me.leolin:ShortcutBadger:1.1.17@aar"/>
-    <framework src="com.google.firebase:firebase-messaging:20.0.1"/>
+    <framework src="com.google.firebase:firebase-messaging:23.2.1"/>
     <dependency id="phonegap-plugin-multidex" version="~1.0.0"/>
 
     <source-file src="src/android/com/adobe/phonegap/push/FCMService.java" target-dir="src/com/adobe/phonegap/push/"/>
